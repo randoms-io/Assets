@@ -32,31 +32,31 @@ This project depends on Python3 as programming language, pip for installing tool
 Some important Files and folders in this project are described as:
 ```
 Tasks/
-├── assets 							- Contains screenshots and logo for this README.md
+├── assets 		- Contains screenshots and logo for this README.md
 ├── manage.py
-├── README.md 						- This README.md you are viewing
-├── requirements.txt 				- Enlists the requirements of this project
-├── tasks/ 							- Project Directory
-│   ├── forms.py 					- Forms used in the app 
-│   ├── migrations/				- Migrations created
+├── README.md 		- This README.md you are viewing
+├── requirements.txt 		- Enlists the requirements of this project
+├── tasks/ 		- Project Directory
+│   ├── forms.py 		- Forms used in the app 
+│   ├── migrations/ 		- Migrations created
 │   │   └── migration files
-│   ├── models.py 					- Models used in the app for storing tasks
+│   ├── models.py 		- Models used in the app for storing tasks
 │   ├── static/
-│   │   ├── app.js 				- Main javascript file for app
-│   │   └── assets 				- Favicons and logo used in the app
-│   ├── templates/ 				- View's HTML template files
+│   │   ├── app.js 		- Main javascript file for app
+│   │   └── assets 		- Favicons and logo used in the app
+│   ├── templates/ 		- View's HTML template files
 │   │   └── tasks/
-│   │       ├── add.html 			- View for adding new tasks
-│   │       ├── dashboard.html 	- View for dashboard
-│   │       ├── edit.html 			- View for editing existing task
+│   │       ├── add.html 		- View for adding new tasks
+│   │       ├── dashboard.html 		- View for dashboard
+│   │       ├── edit.html 		- View for editing existing task
 │   │       ├── index.html 		- View for landing page
 │   │       ├── layout.html 		- View for layout which is inherited by all other views
 │   │       ├── login.html 		- View for user login
-│   │       ├── password.html 	- View for changing user's password
+│   │       ├── password.html 		- View for changing user's password
 │   │       └── register.html 		- View for creating new users
 │   ├── tests.py
-│   ├── urls.py 						- All the registered routes for tasks app
-│   └── views.py 					- Logic for routes and handling requests
+│   ├── urls.py 		- All the registered routes for tasks app
+│   └── views.py 		- Logic for routes and handling requests
 └── todo
 ```
 
